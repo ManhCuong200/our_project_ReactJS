@@ -77,7 +77,7 @@ function App() {
       description:
         "A seamless platform for organizing and managing code competitions",
       image:
-        "https://d2xd1xgy7uhqas.cloudfront.net/NapaGlobal-image/2198ec11d9d0c7cb9e37-Smart-Contract-Hackathon.svg",
+        "https://d2xd1xgy7uhqas.cloudfront.net/NapaGlobal-image/67872198ec11d9d0c7cb9e37-Smart-Contract-Hackathon.svg",
       tech: ["Solana", "React", "TypeScript"],
     },
     {
@@ -86,7 +86,7 @@ function App() {
       description:
         "Suggesting, editing and generating massive content with less effort and time",
       image:
-        "https://d2xd1xgy7uhqas.cloudfront.net/NapaGlobal-image/1d9d0c7cba146-AI-Content-Marketing-Management.svg",
+        "https://d2xd1xgy7uhqas.cloudfront.net/NapaGlobal-image/678722a6ec11d9d0c7cba146-AI-Content-Marketing-Management.svg",
       tech: ["Solana", "React", "TypeScript"],
     },
     {
@@ -151,7 +151,7 @@ function App() {
       description:
         "Cloud virtual reality powered by Blockchain and Unreal Engine with advanced gaming, personalized experiences, NFT exchange, and crypto rewards",
       image:
-        "	https://d2xd1xgy7uhqas.cloudfront.net/NapaGlobal-i…/678725aeec11d9d0c7cba6b6-Metaverse-Ecosystem.svg",
+        "	https://d2xd1xgy7uhqas.cloudfront.net/NapaGlobal-image/678725aeec11d9d0c7cba6b6-Metaverse-Ecosystem.svg",
       tech: ["Solana", "React", "TypeScript"],
     },
     {
@@ -175,7 +175,7 @@ function App() {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className=" absolute inset-0 z-0 bg-gradient-to-b "></div>
+        <div className=" absolute inset-0 z-0 bg-gradient-to"></div>
         <div className="relative z-10">
           <Navbar />
           <HeroSection />
