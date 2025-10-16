@@ -4,19 +4,19 @@ import Youtube from "../../assets/youtube.png";
 const Footer = () => {
   return (
     <footer
-      className="relative text-white pt-7 pb-8"
+      className="relative text-white pt-10 pb-8"
       style={{
         backgroundImage: `url('https://napaglobal.com/img/baner-footer.svg')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
-      <div className="max-w-7xl mx-auto px-8 flex flex-col md:flex-row justify-between items-start gap-12">
-        <div className="md:w-[30%]">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 flex flex-col md:flex-row justify-between items-start gap-12">
+        <div className="md:w-[30%] w-full text-center md:text-left">
           <img
             src="https://napaglobal.com/img/logo/logo_napa-mobile.png"
             alt="NAPA Global"
-            className="w-[180px] mb-4 brightness-0 invert contrast-100 "
+            className="w-[160px] sm:w-[180px] mb-5 mx-auto md:mx-0 brightness-0 invert contrast-100"
           />
 
           <p className="font-semibold text-white mb-2">
@@ -32,7 +32,7 @@ const Footer = () => {
             </span>
           </p>
 
-          <div className="flex items-center gap-4 mb-8">
+          <div className="flex justify-center md:justify-start items-center gap-4 mb-8">
             <img
               src="https://napaglobal.com/img/footer/linkedin.svg"
               alt="LinkedIn"
@@ -55,32 +55,28 @@ const Footer = () => {
             />
           </div>
 
-          <div className="flex flex-col gap-4 mt-6">
-            <div className="flex gap-8 items-center">
-              <div className="flex flex-col items-center">
-                <img
-                  src="https://napaglobal.com/img/ISO_9001-2015%201.svg"
-                  alt="ISO 9001"
-                  className="w-[60px]"
-                />
-              </div>
-              <div className="flex flex-col items-center">
-                <img
-                  src="https://napaglobal.com/img/ISO_27001-2015.svg"
-                  alt="ISO 27001"
-                  className="w-[60px]"
-                />
-              </div>
+          <div className="flex flex-col items-center md:items-start gap-4 mt-6">
+            <div className="flex justify-center md:justify-start gap-8 items-center">
+              <img
+                src="https://napaglobal.com/img/ISO_9001-2015%201.svg"
+                alt="ISO 9001"
+                className="w-[60px]"
+              />
+              <img
+                src="https://napaglobal.com/img/ISO_27001-2015.svg"
+                alt="ISO 27001"
+                className="w-[60px]"
+              />
             </div>
 
-            <p className="text-sm text-[#ccc] mt-4">
+            <p className="text-sm text-[#ccc] mt-4 text-center md:text-left">
               © 2024 NAPA Global All Rights Reserved.
             </p>
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row justify-between w-full md:w-[65%] gap-x-20">
-          <div className="min-w-[150px]">
+        <div className="flex flex-col sm:flex-row md:flex-row justify-between w-full md:w-[65%] gap-10 sm:gap-x-20 text-center sm:text-left">
+          <div className="w-full sm:w-auto">
             <h3 className="font-semibold text-white mb-4">Information</h3>
             <ul className="space-y-3 text-[#ddd] text-sm">
               <li className="hover:text-white cursor-pointer">Home</li>
@@ -93,7 +89,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="min-w-[180px]">
+          <div className="w-full sm:w-auto">
             <h3 className="font-semibold text-white mb-4">Company</h3>
             <ul className="space-y-3 text-[#ddd] text-sm">
               <li className="hover:text-white cursor-pointer">About Us</li>
@@ -105,7 +101,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="min-w-[250px]">
+          <div className="w-full sm:w-auto">
             <h3 className="font-semibold text-white mb-4">Our Services</h3>
             <ul className="space-y-3 text-[#ddd] text-sm">
               <li className="hover:text-white cursor-pointer">AI Solutions</li>
